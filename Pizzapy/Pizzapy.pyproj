@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1de2485a-9bf3-46e5-b743-5e8885855df0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pizzapy.py</StartupFile>
+    <StartupFile>UsingPyODBC.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,9 +23,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Pizzapy.py" />
+    <Compile Include="UsingPyODBC.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
+    <InterpreterReference Include="Global|PythonCore|3.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
