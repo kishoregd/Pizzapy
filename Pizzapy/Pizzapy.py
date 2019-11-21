@@ -1,3 +1,3 @@
 # Pizzapy Module
-msg = "Welcome to Pizzpy Application"
+msg = "Welcome to Pizzapy Application"
 print(msg)
